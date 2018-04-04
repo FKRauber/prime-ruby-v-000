@@ -1,5 +1,5 @@
 # Add  code here!
-def prime?(int)
+def prime? (int)
   if int <= 1
     false
   elsif int == 2 || int == 3
