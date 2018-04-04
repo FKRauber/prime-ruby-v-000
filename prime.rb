@@ -1,6 +1,10 @@
 # Add  code here!
 def prime?(int)
-  return false if int < 2
-  return true if int == 2 || int == 3
-  (2..n/2).none? { |i| n % i == 0  }
+  if int < 2
+    false
+  elsif int == 2 || int == 3
+    true
+  else
+    (2..n/2).none? { |i| n % i == 0  }
+  end
 end
